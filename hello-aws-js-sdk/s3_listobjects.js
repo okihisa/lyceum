@@ -19,7 +19,7 @@ import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "./libs/s3Client.js"; // Helper function that creates Amazon S3 service client module.
 
 // Create the parameters for the bucket
-const bucketParams = { Bucket: "BUCKET_NAME" };
+const bucketParams = { Bucket: "okihisa20230222" };
 
 const run = async () => {
   try {
