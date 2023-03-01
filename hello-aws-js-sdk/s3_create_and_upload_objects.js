@@ -22,7 +22,7 @@ import { s3Client } from "./libs/s3Client.js"; // Helper function that creates A
 
 // Set the parameters.
 const bucketParams = {
-  Bucket: "lyceum-202107",
+  Bucket: "okihisa20230222",
   // Specify the name of the new object. For example, 'index.html'.
   // To create a directory for the object, use '/'. For example, 'myApp/package.json'.
   Key: "object-file.html",
