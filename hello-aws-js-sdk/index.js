@@ -7,8 +7,7 @@ import http from "http";　// HTTP サーバ
 import { s3Client } from "./libs/s3Client.js";
 
 //Pollysynthesizeのソースコードからコピー
-import { StartSpeechSynthesisTaskCommand } from "@aws-sdk/client-polly";
-const { PollyClient } =require( "@aws-sdk/client-polly");
+import { StartSpeechSynthesisTaskCommand, PollyClient } from "@aws-sdk/client-polly";
 const pollyClient = new PollyClient({ region: REGION });　// Set the AWS Region.
 var params = {
   OutputFormat: "mp3",
