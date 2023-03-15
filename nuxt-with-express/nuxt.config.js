@@ -1,6 +1,6 @@
 import { defineNuxtConfig } from "nuxt/config";
 
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config#serverhandlers
 export default defineNuxtConfig({
-  serverMiddleware: [{ path: "/api", handler: "~/express/index.js" }],
+  serverHandlers: [{ route: "/anotherapi/**", handler: "~/express/index.js" }],
 });
